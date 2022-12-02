@@ -44,5 +44,5 @@ Nous avons décidé de particulièrement bâcler la page d'accueil. Un maximum d
 
 ***
 ### Défi "This is better than Hadouken !" :
-Lien vers la vidéo démonstrative de l'implémentation du konami code : 
+Lien vers la vidéo démonstrative de l'implémentation du konami code : https://youtu.be/tF6qPvfCZKQ
 
