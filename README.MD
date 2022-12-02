@@ -36,7 +36,7 @@ docker run -p 80:80 carduin/nuit-de-linfo
 ```
 Le port 80 (port par défaut pour un serveur web) est exposé pour rendre le projet disponible dans le navigateur, à l'url : http://localhost
 
-Poids de l'image (estimé par Docker Desktop) : 
+Poids de l'image (estimé par Docker Desktop) : 61,21 Mb
 
 ***
 ### Défi "MOVAI CODE : INTERFASSE" :
