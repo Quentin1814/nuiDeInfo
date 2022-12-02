@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+<title>Soul; Gate Nuit info 2022</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+
+body {
+    background-image: url('./images/index.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+}
+
+img {
+    max-height: 40px;
+}
+
+</style>
+<script src="./js/mousetrap.js"></script>
+<script>
+let clicks = 0;
+
+Mousetrap.bind('up up down down left right left right b a enter', function () {
+    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1";
+});
+
+
+function playGame() {
+    clicks = clicks + 1;
+
+    if(clicks >= 5) {
+        const btn = document.getElementById("true-button")
+        btn.style= "border: solid 5px green; display: unset;"
+    }
+    
+} 
+
+function navigateToGame() {
+
+    
+} 
+
+</script>
+<body>
+    <div>
+        <div style="display: inline-block; width: 1000px;">
+            <img src="./images/star-spinning.gif"/>
+             <h1>Bienvenue sur le projet <span style="color: red;">de l'équipe S</span>oul;Gate</h1>
+            <h4 style="font-weight: bolder; font-style: italic;">Nuit de l'info 2022</h4>
+            <img src="./images/star-spinning.gif"/>
+        </div>
+        
+        <div>
+        <p>Cette année, le but de la nuit de l'info est de proposer manière ludique et accessible d'informer sur la santé sexuelle. 
+            Nous avons décidé de réaliser un "visual novel" mettant en place une histoire prenante autour des IST.</p>
+        <p>Vous pouvez jouer à notre jeu ci dessous :</p>
+        </div>
+        
+        
+        <button style="border: solid 5px green;" onclick="playGame()">Jouer au jeu</button>
+        <br/><br/>
+        <button id="true-button" style="display: none;" onclick="navigateToGame()">Eh non, en fait c'était ici !</button>
+        
+    </div>
+</body>
+</html> 

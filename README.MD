@@ -36,6 +36,3 @@ aaaaaa
 ***
 ### Défi "This is better than Hadouken !" :
 aaaa
-***
-### Défi "Le chat l'a attrapée" :
-aaaa
