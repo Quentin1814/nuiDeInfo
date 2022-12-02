@@ -23,8 +23,9 @@ http://soulgate.alwaysdata.net
 ## Documentation
 ***
 ### Défi "A la conquête de l’œuf de pâques" :
-Pour ce défi, nous avons décidé de mettre en place une "chasse à l'oeuf de pâques". Souvent, ceux-ci sont bien cachés et nécessitent des recheches, ou de remarquer de petits détails. Nous avons décidé de cacher une URL dans les dialogues de notre jeu, via des caractères mis en valeur. Cette URL mène vers une vidéo youtube, mettant en scène les personnages de notre visual novel dans une situation humoristique.
+Pour ce défi, nous avons décidé de mettre en place une "chasse à l'oeuf de pâques". Souvent, ceux-ci sont bien cachés et nécessitent des recheches, ou de remarquer de petits détails. Nous avons décidé de cacher une URL dans les dialogues de notre jeu, via des caractères mis en valeur à repérer et assembler. Cette URL mène vers une vidéo youtube, mettant en scène les personnages de notre visual novel dans une situation humoristique.
 
+Lien vers la vidéo : https://youtu.be/HwFkr2d7THw
 ***
 ### Défi "Docker" :
 Nous avons déployé l'image Docker à l'url suivante : https://hub.docker.com/repository/docker/carduin/nuit-de-linfo/general
