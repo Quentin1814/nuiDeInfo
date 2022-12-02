@@ -30,10 +30,27 @@ Mousetrap.bind('up up down down left right left right b a enter', function () {
 
 function playGame() {
     clicks = clicks + 1;
+    const message = document.getElementById("error-message");
 
-    if(clicks >= 5) {
-        const btn = document.getElementById("true-button")
-        btn.style= "border: solid 5px green; display: unset;"
+    switch(clicks) {
+        case 1:
+            message.innerHTML="Il semble y avoir eu une erreur, merci de réessayer."
+            break;
+        case 2:
+            message.innerHTML="Décidement, rien ne marche aujourd'hui..."
+            break;
+        case 3:
+            message.innerHTML="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+            break;
+        case 4:
+            message.innerHTML="#«æÁºBòÀ¶d†í‹BÉm dernier essai, pour la route ?"    
+            break;
+        case 5:
+            const btn = document.getElementById("true-button")
+            btn.style= "border: solid 5px green; display: unset;"
+            break;
+        default:
+            break;
     }
     
 } 
@@ -48,7 +65,7 @@ function navigateToGame() {
     <div>
         <div style="display: inline-block; width: 1000px;">
             <img src="./images/star-spinning.gif"/>
-             <h1>Bienvenue sur le projet <span style="color: red;">de l'équipe S</span>oul;Gate</h1>
+             <h1>Bien<span style="color: yellow;">v</span>enue sur le projet <span style="color: red;">de l'équipe S</span>oul;Gate</h1>
             <h4 style="font-weight: bolder; font-style: italic;">Nuit de l'info 2022</h4>
             <img src="./images/star-spinning.gif"/>
         </div>
@@ -60,9 +77,9 @@ function navigateToGame() {
         </div>
         
         
-        <button style="border: solid 5px green;" onclick="playGame()">Jouer au jeu</button>
-        <br/><br/>
-        <button id="true-button" style="display: none;" onclick="navigateToGame()">Eh non, en fait c'était ici !</button>
+        <button style="border: solid 5px green;" onclick="playGame()">Jouer au jeu</button> 
+        <p id="error-message"></p>
+        <button id="true-button" style="display: none;" onclick="navigateToGame()">Eh non, en fait c'était ici qu'il fallait cliquer!</button>
         
     </div>
 </body>
