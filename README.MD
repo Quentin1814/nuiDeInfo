@@ -34,7 +34,7 @@ Commande pour lancer l'image en local :
 ```
 docker run -p 80:80 carduin/nuit-de-linfo
 ```
-Le projet est ensuite disponible dans le navigateur, à l'url : http://localhost
+Le port 80 (port par défaut pour un serveur web) est exposé pour rendre le projet disponible dans le navigateur, à l'url : http://localhost
 
 Poids de l'image (estimé par Docker Desktop) : 
 
